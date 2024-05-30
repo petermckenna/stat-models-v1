@@ -431,7 +431,7 @@ In case you get lost, here's a table with an explanation for all of the variable
 | ${\tau_{11}}^2$        | random   | Variance of random slopes                                             |
 | $\sigma^2$             | random   | Error variance                                                        |
 
-Note the "Status" column of the table contains values *fixed*, *random*, and *derived*. Although *fixed* and *random* are standard terms, *derived* is not; I have introduced it to help you think about what these different variables mean in the context of the model and to help you distinguish variables that are directly estimated from variables that are not.
+Note the "Type" column of the table contains values *fixed*, *random*, and *derived*. Although *fixed* and *random* are standard terms, *derived* is not; I have introduced it to help you think about what these different variables mean in the context of the model and to help you distinguish variables that are directly estimated from variables that are not.
 
 Let's begin with the Level 1 equation of our model, which represents the general relationship between the predictors and response variable. It captures the functional form of the main relationship between reaction time \(Y_{sd}\) and sleep deprivation \(X_{sd}\): a straight line with intercept \(\beta_{0s}\) and slope \(\beta_{1s}\). Now \(\beta_{0s}\) and \(\beta_{1s}\) makes it look like the complete pooling model, where we estimated a single intercept and single slope for the entire dataset; however, we're not actually estimating these directly. Instead, we're going to think of \(\beta_{0s}\) and \(\beta_{1s}\) as derived: they are wholly defined by variables at Level 2 of the model.
 
